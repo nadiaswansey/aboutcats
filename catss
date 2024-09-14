@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All About Cats</title>
+    <style>
+        body {
+            background-color: #ADD8E6; /* Baby blue */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4682B4; /* Steel blue for contrast */
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            line-height: 1.8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4682B4;
+            margin-top: 30px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to All About Cats</h1>
+        <p>Your Ultimate Guide to Feline Friends</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Cats</a>
+        <a href="#breeds">Popular Breeds</a>
+        <a href="#care">Cat Care Tips</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Cats</h2>
+        <p>
+            Cats are one of the most popular pets in the world. Known for their independence, playfulness, and companionship, 
+            cats have been domesticated for thousands of years. They are small, carnivorous mammals, and are valued for their 
+            hunting abilities as well as their company.
+        </p>
+    </section>
+
+    <section id="breeds">
+        <h2>Popular Cat Breeds</h2>
+        <ul>
+            <li><strong>Maine Coon</strong> - Known for their large size and friendly nature.</li>
+            <li><strong>Siamese</strong> - Famous for their sleek appearance and vocal personalities.</li>
+            <li><strong>Persian</strong> - Recognized by their long, luxurious fur and calm temperament.</li>
+            <li><strong>Bengal</strong> - An active and playful breed with exotic markings.</li>
+        </ul>
+    </section>
+
+    <section id="care">
+        <h2>Cat Care Tips</h2>
+        <p>
+            Taking care of a cat involves providing proper nutrition, grooming, and regular vet visits. 
+            Make sure your cat has access to clean water and a balanced diet. Grooming needs vary by breed, 
+            with long-haired cats requiring more frequent brushing. Regular checkups and vaccinations help 
+            keep your feline healthy and happy.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All About Cats</p>
+    </footer>
+
+</body>
+</html>
